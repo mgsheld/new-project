@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/birds', birdsRouter);
-
+app.use('/form-submit-confirm', birdsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
