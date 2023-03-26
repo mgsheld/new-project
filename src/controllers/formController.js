@@ -7,5 +7,5 @@ exports.form_post = function(req, res){
   
   console.log(birdData);
   
-  res.render('form-submit-confirm', birdData)
+  res.render('birds-submit', birdData)
   };
